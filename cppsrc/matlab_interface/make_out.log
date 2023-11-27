@@ -1,0 +1,14 @@
+Building with 'g++'.
+Warning: You are using gcc version '9.3.0'. The version of gcc is not supported. The version currently supported with MEX is '6.3.x'. For a list of currently supported compilers see: https://www.mathworks.com/support/compilers/current_release.
+/mnt/Acer/Users/Christoph/Documents/Promotion/CODE/source/cppsrc/matlab_interface/gpc_interface_mex.cpp:2: warning: "_NDLMATLAB" redefined
+    2 | #define _NDLMATLAB
+      | 
+<command-line>: note: this is the location of the previous definition
+In file included from /mnt/Acer/Users/Christoph/Documents/Promotion/CODE/source/cppsrc/matlab_interface/mex_directives.h:8,
+                 from /mnt/Acer/Users/Christoph/Documents/Promotion/CODE/source/cppsrc/matlab_interface/class_handle.hpp:45,
+                 from /mnt/Acer/Users/Christoph/Documents/Promotion/CODE/source/cppsrc/matlab_interface/gpc_interface_mex.cpp:4:
+/mnt/Acer/Users/Christoph/Documents/Promotion/CODE/source/cppsrc/matlab_interface/../math/definitions.h:4:10: fatal error: Eigen/Core: Datei oder Verzeichnis nicht gefunden
+    4 | #include <Eigen/Core>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+

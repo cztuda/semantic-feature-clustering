@@ -1,0 +1,23 @@
+
+# files:
+**/*.cmake
+**/Makefile
+**/*.kdev*
+**/*.project
+**/*.cproject
+**/.goutputstream*
+**/CMakeCache.txt
+**.o
+**.mexa64
+**.mex
+**.so
+**.so.**
+**.mat
+**.fuse_hidden*
+**.*~
+**.asv
+
+# folders:
+**/CMakeFiles/
+cppsrc/build/**
+matlabsrc/external/**
