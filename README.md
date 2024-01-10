@@ -198,10 +198,13 @@ The following external code is included in this repository:
 ## Reference 
 
 ```
-@inproceedings{zelch_hum23,
-  title =  {Clustering of Motion Trajectories by a Distance Measure Based on Semantic Features},
-  author =   {Zelch, Christoph and Peters, Jan and von Stryk, Oskar},
-  booktitle = {IEEE-RAS 22nd International Conference on Humanoid Robots},
-  year =   {2023}
+@inproceedings{zelch2023clustering,
+  title = {Clustering of Motion Trajectories by a Distance Measure Based on Semantic Features},
+  author = {Zelch, Christoph and Peters, Jan and von Stryk, Oskar},
+  booktitle = {2023 IEEE-RAS 22nd International Conference on Humanoid Robots (Humanoids)},
+  year = {2023},
+  doi = {10.1109/Humanoids57100.2023.10375228},
+  organization = {IEEE},
+  pages = {1--8}
 }
 ```
