@@ -1,9 +1,10 @@
 # Feature-based Trajectory Clustering 
 
-This repository contains an implementation of the feature-based trajectory clustering algorithm that is presented at Humanoids 2023. 
+This repository contains an implementation of the feature-based trajectory distance measure for trajectory clustering that is presented at Humanoids 2023. 
 
 
 Many clustering algorithms for trajectories build upon distance metrics that are based on pointwise Euclidean distances. However, focusing on salient characteristics is often sufficient. The feature-based trajectory clustering relies on a novel distance measure for motion plans consisting of state and control trajectories that is based on a compressed representation built from their main features. This approach allows a flexible choice of feature classes relevant to the respective task. The distance measure is used in agglomerative hierarchical clustering. The method is compared with the widely used dynamic time warping algorithm on test sets of motion plans for the Furuta pendulum and the Manutec r3 robot arm and on real-world data from a human motion dataset.
+(The preprint-version of the accepted article can be found [here](https://web.sim.informatik.tu-darmstadt.de/publ/download/2023_zelch_humanoids.pdf).)
 
 *Disclaimer:* The code in this repository is considered research and "experimental".
 
@@ -197,10 +198,13 @@ The following external code is included in this repository from external sources
 ## Reference 
 
 ```
-@inproceedings{zelch_hum23,
-  title =  {Clustering of Motion Trajectories by a Distance Measure Based on Semantic Features},
-  author =   {Zelch, Christoph and Peters, Jan and von Stryk, Oskar},
-  booktitle = {IEEE-RAS 22nd International Conference on Humanoid Robots},
-  year =   {2023}
+@inproceedings{zelch2023clustering,
+  title = {Clustering of Motion Trajectories by a Distance Measure Based on Semantic Features},
+  author = {Zelch, Christoph and Peters, Jan and von Stryk, Oskar},
+  booktitle = {2023 IEEE-RAS 22nd International Conference on Humanoid Robots (Humanoids)},
+  year = {2023},
+  doi = {10.1109/Humanoids57100.2023.10375228},
+  organization = {IEEE},
+  pages = {1--8}
 }
 ```
