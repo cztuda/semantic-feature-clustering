@@ -182,7 +182,7 @@ and place the created library file in the matlab root directory (matlabsrc). The
 ## License and Acknowledgment
 This repository is primarily licensed under the MIT License.
 
-The following external code is included in this repository:
+The following external code is included in this repository from external sources. In most cases, it is subject to its own license and is therefore excluded from this repository's license:
 
 | External Code | Subfolder | License | Source |
 |----------------------|------|---------|--------|
@@ -190,7 +190,7 @@ The following external code is included in this repository:
 | LODEPNG | cppsrc/external/lodepng | zlib | [Link](https://github.com/lvandeve/lodepng) |
 | Cpp Dynamic Class Loading | cppsrc/dlc | The Unlicense | [Link](https://github.com/knusbaum/CPP-Dynamic-Class-Loading) |
 | Class Handle | cppsrc/matlab_interface/class_handle.hpp | 2-clause BSD | [Link](https://de.mathworks.com/matlabcentral/fileexchange/38964-example-matlab-class-wrapper-for-a-c++-class) |
-
+| Manutec r3 dynamic model | cppsrc/models/manutec/_dynamics.h | personal permission (cf. source code) | |
 
 
 
